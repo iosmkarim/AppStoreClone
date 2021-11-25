@@ -15,6 +15,7 @@
 		DDDB1721274EEFEA002B959A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDDB171F274EEFEA002B959A /* LaunchScreen.storyboard */; };
 		DDDB172C274EEFEB002B959A /* AppstoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDDB172B274EEFEB002B959A /* AppstoreTests.swift */; };
 		DDDB1737274EEFEB002B959A /* AppstoreUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDDB1736274EEFEB002B959A /* AppstoreUITests.swift */; };
+		DDDB1745274F03C5002B959A /* BaseTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDDB1744274F03C5002B959A /* BaseTabBarController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		DDDB1732274EEFEB002B959A /* AppstoreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppstoreUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDDB1736274EEFEB002B959A /* AppstoreUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppstoreUITests.swift; sourceTree = "<group>"; };
 		DDDB1738274EEFEB002B959A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDDB1744274F03C5002B959A /* BaseTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTabBarController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				DDDB171D274EEFEA002B959A /* Assets.xcassets */,
 				DDDB171F274EEFEA002B959A /* LaunchScreen.storyboard */,
 				DDDB1722274EEFEA002B959A /* Info.plist */,
+				DDDB1744274F03C5002B959A /* BaseTabBarController.swift */,
 			);
 			path = Appstore;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DDDB1745274F03C5002B959A /* BaseTabBarController.swift in Sources */,
 				DDDB1719274EEFE1002B959A /* ViewController.swift in Sources */,
 				DDDB1715274EEFE1002B959A /* AppDelegate.swift in Sources */,
 				DDDB1717274EEFE1002B959A /* SceneDelegate.swift in Sources */,
